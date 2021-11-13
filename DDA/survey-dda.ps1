@@ -73,7 +73,7 @@ foreach ($pcidev in $pcidevs) {
     # aren't assignable.
     #
     $doubleslashDevId = "*" + $pcidev.PNPDeviceID.Replace("\","\\") + "*"
-    $irqAssignments = gwmi -query "select * from Win32_PnPAllocatedResource" | Where-Object {$_.__RELPATH -like "*Win32_IRQResource*"} | Where-Object {$_.Dependent -like $doubleslashDevId}
+    $irqAssignments =  Get-WmiObject -query "select * from Win32_PnPAllocatedResource" | Where-Object {$_.__RELPATH -like "*Win32_IRQResource*"} | Where-Object {$_.Dependent -like $doubleslashDevId}
 
     #$irqAssignments | Format-Table -Property __RELPATH
 
