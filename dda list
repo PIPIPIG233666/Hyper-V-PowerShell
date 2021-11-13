@@ -1,0 +1,132 @@
+Generating a list of PCI Express endpoint devices
+
+
+Intel(R) PEG10 - 9A01
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Thunderbolt(TM) Controller - 9A1F
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) PCI Express Root Port #9 - 43B0
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) PEG60 - 9A0F
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Serial IO I2C Host Controller - 43EA
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+High Definition Audio Controller
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Serial IO I2C Host Controller - 43E9
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Thunderbolt(TM) Controller - 9A21
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+PCI Express Root Port
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Standard NVM Express Controller
+Express Endpoint -- more secure.
+    And its interrupts are message-based, assignment can work.
+PCIROOT(0)#PCI(1D00)#PCI(0000)
+
+
+Intel(R) SPI (flash) Controller - 43A4
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Dynamic Tuning Processor Participant
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Standard SATA AHCI Controller
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Telemetry Aggregator - 9A0D
+Embedded Endpoint -- less secure.
+    And it has no interrupts at all -- assignment can work.
+PCIROOT(0)#PCI(0A00)
+
+
+Intel(R) Wi-Fi 6 AX201 160MHz
+Embedded Endpoint -- less secure.
+    And its interrupts are message-based, assignment can work.
+PCIROOT(0)#PCI(1403)
+
+
+Realtek PCIe GbE Family Controller
+Express Endpoint -- more secure.
+    And its interrupts are message-based, assignment can work.
+PCIROOT(0)#PCI(1D06)#PCI(0000)
+
+
+PCI standard host CPU bridge
+BIOS requires that this device remain attached to BIOS-owned memory.  Not assignable.
+
+
+Intel(R) PCI Express Root Port #15 - 43B6
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+NVIDIA GeForce RTX 3060 Laptop GPU
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) LPC Controller (HM570) - 438B
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) UHD Graphics
+BIOS requires that this device remain attached to BIOS-owned memory.  Not assignable.
+
+
+Standard NVM Express Controller
+Express Endpoint -- more secure.
+    And its interrupts are message-based, assignment can work.
+PCIROOT(0)#PCI(0600)#PCI(0000)
+
+
+Intel(R) Serial IO I2C Host Controller - 43E8
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+PCI Express Root Port
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Management Engine Interface #1
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) SMBus - 43A3
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+Intel(R) Shared SRAM - 43EF
+Old-style PCI device, switch port, etc.  Not assignable.
+
+
+High Definition Audio Controller
+Express Endpoint -- more secure.
+All of the interrupts are line-based, no assignment can work.
